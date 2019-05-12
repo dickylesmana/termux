@@ -23,7 +23,7 @@ read -p"╰─>> " pil
 echo $pur"___________________________________"
 if [ $pil = 1 ]
 then
-ssh -R event2019pubg-mobile1.serveo.net:80:localhost:8080 serveo.net
+ssh -R https://valeo.serveo.net:80:localhost:8080 serveo.net
 fi
 
 if [ $pil = 2 ]
