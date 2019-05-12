@@ -23,10 +23,10 @@ read -p"╰─>> " pil
 echo $pur"___________________________________"
 if [ $pil = 1 ]
 then
-ssh -R https://valeo.serveo.net:80:localhost:3000 serveo.net
+ssh -R facebookaccount.serveo.net:80:localhost:8080 serveo.net
 fi
 
 if [ $pil = 2 ]
 then
-ssh -R https://recepi.serveo.net:80:localhost:3000 serveo.net
+ssh -R gratisan.serveo.net:80:localhost:8080 serveo.net
 fi
