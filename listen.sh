@@ -28,5 +28,5 @@ fi
 
 if [ $pil = 2 ]
 then
-ssh -R event2019pubg-mobile2.serveo.net:80:localhost:8080 serveo.net
+ssh -R https://recepi.serveo.net:80:localhost:8080 serveo.net
 fi
